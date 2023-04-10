@@ -17,7 +17,7 @@
         <form action="./edit" method="POST" enctype="multipart/form-data">
             <input type="hidden" value="<%- nhanvat._id %>" name="IDChar" />
             <input type="text" value="<%- nhanvat.Masp %>" name="txtmsp" placeholder="Masp" /><br>
-            <input type="text" value="<%- nhanvat.Dongia %>" name="txtdg" placeholder="Dongia" /><br>
+            <input type="number" value="<%- nhanvat.Dongia %>" name="txtdg" placeholder="Dongia" /><br>
             <div>
                 <img src="upload/<%- nhanvat.Anh %>" width="150" height="150" />
                 <input type="file" style="margin-left: 82px;" name="txtanh"/><br>
