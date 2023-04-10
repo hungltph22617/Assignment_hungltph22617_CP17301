@@ -4,6 +4,7 @@ var passport = require("passport");
 var config = require("./config/database");
 require("./config/Passport")(passport);
 var http = require('http');
+const request = require('request');
 //body-parser
 var jwt = require('jsonwebtoken');
 var bodyParser = require('body-parser');
